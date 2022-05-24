@@ -19,46 +19,51 @@
 <body>
 
   <div class="container">
-    <div class="bill">
-      <label for="bill">Bill</label>
-      <input type="number" name="bill" id="bill">
+    <div class="card-1">
+      <div class="bill">
+        <label for="bill">Bill</label>
+        <input type="number" name="bill" id="bill">
+      </div>
+      <label for="select-tip">Select Tip %</label>
+      <div class="select-tip">
+        <div class="button">
+          <button type="button">5%</button>
+        </div>
+        <div class="button">
+          <button type="button">10%</button>
+        </div>
+        <div class="button">
+          <button type="button">15%</button>
+        </div>
+        <div class="button">
+          <button type="button">25%</button>
+        </div>
+        <div class="button">
+          <button type="button">50%</button>
+        </div>
+        <div class="button custom">
+          <button type="button">Custom</button>
+        </div>
+      </div>
+      <div class="people">
+        <label for="people">Number of People</label>
+        <input type="number" name="people" id="people">
+      </div>
     </div>
-    <label for="select-tip">Select Tip %</label>
-    <div class="select-tip">
-      <div class="button">
-        <button type="button">5%</button>
-      </div>
-      <div class="button">
-        <button type="button">10%</button>
-      </div>
-      <div class="button">
-        <button type="button">15%</button>
-      </div>
-      <div class="button">
-        <button type="button">25%</button>
-      </div>
-      <div class="button">
-        <button type="button">50%</button>
-      </div>
-      <div class="button custom">
-        <button type="button">Custom</button>
-      </div>
-    </div>
-    <div class="people">
-      <label for="people">Number of People</label>
-      <input type="number" name="people" id="people">
-    </div>
-    <div class="total">
-      <div class="amount">
-        <h5>Tip Amount</h5>
-        <p>/ person</p>
-      </div>
-      <div class="persons">
-        <h5>Tip</h5>
-        <p>/ person</p>
-      </div>
-      <div class="button reset">
-        <button>Reset</button>
+    
+    <div class="card-2">
+      <div class="total">
+        <div class="amount">
+          <h5>Tip Amount</h5>
+          <p>/ person</p>
+        </div>
+        <div class="persons">
+          <h5>Tip</h5>
+          <p>/ person</p>
+        </div>
+        <div class="button reset">
+          <button>Reset</button>
+        </div>
       </div>
     </div>
   </div>
