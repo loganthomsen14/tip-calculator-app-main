@@ -5,19 +5,45 @@ body {
 
 .button {
     display: inline-block;
+    width: 30%;
     background-color: hsl(186, 14%, 43%);
     color: white;
     border: none;
+    border-radius: 5px;
     text-decoration: none;
-/* 
-    background-color: #4CAF50; /* Green 
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px; */
+    text-align: center;
+    padding: 10px 50px;
+    margin: .15rem;
+    font-family: "Space Mono";
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: hsl(189, 41%, 97%);
+    color: hsl(183, 100%, 15%);
+}
+
+.custom:hover {
+    background-color: hsl(186, 14%, 43%);
+    color: hsl(189, 41%, 97%);
+}
+
+.reset:hover {
+    background-color: hsl(186, 14%, 43%);
+    color: hsl(189, 41%, 97%);
+    border: 1px solid hsl(189, 41%, 97%);
+}
+
+.custom {
+    background-color: hsl(189, 41%, 97%);
+    color: hsl(184, 14%, 56%);
+}
+
+.reset {
+    width: 100%;
+    background-color: hsl(185, 41%, 84%);
+    color:hsl(186, 14%, 43%);
 }
 
 .container {
@@ -33,6 +59,7 @@ body {
 
 .card-1 {
     width: 40%;
+    padding: 1rem;
 }
 
 .card-2 {
