@@ -19,9 +19,31 @@ body {
     font-weight: bold;
 }
 
+.button:hover {
+    background-color: hsl(189, 41%, 97%);
+    color: hsl(183, 100%, 15%);
+}
+
+.custom:hover {
+    background-color: hsl(186, 14%, 43%);
+    color: hsl(189, 41%, 97%);
+}
+
+.reset:hover {
+    background-color: hsl(186, 14%, 43%);
+    color: hsl(189, 41%, 97%);
+    border: 1px solid hsl(189, 41%, 97%);
+}
+
 .custom {
-    background-color: white;
+    background-color: hsl(189, 41%, 97%);
     color: hsl(184, 14%, 56%);
+}
+
+.reset {
+    width: 100%;
+    background-color: hsl(185, 41%, 84%);
+    color:hsl(186, 14%, 43%);
 }
 
 .container {
@@ -37,6 +59,7 @@ body {
 
 .card-1 {
     width: 40%;
+    padding: 1rem;
 }
 
 .card-2 {
