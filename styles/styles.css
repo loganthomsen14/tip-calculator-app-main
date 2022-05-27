@@ -22,13 +22,17 @@ body {
 .button:hover {
     background-color: hsl(189, 41%, 97%);
     color: hsl(183, 100%, 15%);
+    animation-name: anim;
+    animation-duration: 1s;
 }
 
+/* add animation to custom button */
 .custom:hover {
     background-color: hsl(186, 14%, 43%);
     color: hsl(189, 41%, 97%);
 }
 
+/* add animation to reset button */
 .reset:hover {
     background-color: hsl(186, 14%, 43%);
     color: hsl(189, 41%, 97%);
@@ -44,6 +48,17 @@ body {
     width: 100%;
     background-color: hsl(185, 41%, 84%);
     color:hsl(186, 14%, 43%);
+}
+
+@keyframes anim {
+    0% {
+        background-color: hsl(186, 14%, 43%);
+        color: white;
+    }
+    100% {
+        background-color: hsl(189, 41%, 97%);
+        color: hsl(183, 100%, 15%);
+    }
 }
 
 .container {
